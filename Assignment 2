@@ -1,0 +1,23 @@
+a=[]
+n=int(input("enter n"))
+for i in range(n):
+    b=int(input())
+    a.append(b)
+for i in range(n-1,-1,-1):
+    print(a[i])
+enter n
+7
+6
+5
+4
+3
+2
+1
+8
+8
+1
+2
+3
+4
+5
+6
